@@ -13,6 +13,7 @@
     "react-scripts": "3.3.1",
     "victory": "^34.0.1"
   },
+  "homepage": "https://legndery.github.io/india-income-tax-chart-2020",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
