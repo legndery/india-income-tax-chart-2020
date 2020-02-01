@@ -83,7 +83,7 @@ function BudgetChart() {
         />
         <VictoryLine
           // labelComponent={<VictoryTooltip />}
-          labels={({ datum }) => datum.y.toFixed(2)}
+          // labels={({ datum }) => datum.y.toFixed(2)}
           domain={{ x: [0, 2000] }}
           style={{
             data: { stroke: "silver" },
