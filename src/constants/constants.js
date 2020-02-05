@@ -57,10 +57,23 @@ export const POST_BUDGET_SLAB = [
     rebate: false
   },
   {
+    percentage: 5,
+    start: 250001,
+    end: 500000,
+    rebate: true
+  },
+  {
     percentage: 0,
     start: 0,
-    end: 500000,
+    end: 250000,
     rebate: false
   }
 ];
+export const DEFAULT_SALARY_BREAKUP = {
+  basic: 40,
+  HRA: 50,
+  HRA_CLAIM: 60,
+  CLAIM_80C: 100,
+  metro: false
+};
 export const HEALTH_EDU_CESS = 4;

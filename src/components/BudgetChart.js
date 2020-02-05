@@ -6,18 +6,26 @@ import {
   VictoryTheme,
   VictoryLegend,
   VictoryTooltip,
-  VictoryVoronoiContainer
+  VictoryVoronoiContainer,
+  VictoryAxis,
+  VictoryLabel
 } from "victory";
 import { preBudgetTaxCalculator } from "../util/preBudgetIncometaxCalculator";
 import { postBudgetTaxCalculator } from "../util/postBudgetIncometaxCalculator";
 import eventEmitter from "../util/eventEmitter";
 import _ from "lodash";
 
+const makeRs = val => {
+  return `₹${(val / 100).toFixed(2)}L`;
+};
+let handler = ()=>{};
+eventEmitter.on("SALARY_CHANGE", data => {
+  console.log('hhehehe')
+  handler(data);
+});
 function BudgetChart() {
   const [customChartData, setCustomChartData] = useState(null);
-  eventEmitter.once("SALARY_CHANGE", data => {
-    setCustomChartData(data);
-  });
+  handler = setCustomChartData;
   return (
     <div
       style={{
@@ -26,7 +34,14 @@ function BudgetChart() {
     >
       <VictoryChart
         theme={VictoryTheme.material}
-        // containerComponent={<VictoryVoronoiContainer />}
+        containerComponent={
+          <VictoryVoronoiContainer
+            labels={d => {
+              console.log(d);
+              return "(x=" + makeRs(d.datum.x) + ";y=" + makeRs(d.datum.y) + ")";
+            }}
+          />
+        }
       >
         <VictoryLegend
           centerTitle
@@ -43,6 +58,16 @@ function BudgetChart() {
             { name: "Post", symbol: { fill: "gold" } },
             { name: "Custom Salaried", symbol: { fill: "silver" } }
           ]}
+        />
+        <VictoryAxis tickFormat={makeRs} />
+        <VictoryAxis dependentAxis tickFormat={makeRs} />
+        <VictoryLabel text="Salary →" x={50} y={320} style={{ fontSize: 11 }} />
+        <VictoryLabel
+          text="Tax →"
+          x={25}
+          y={300}
+          style={{ fontSize: 11 }}
+          angle={-90}
         />
         <VictoryLine
           domain={{ x: [0, 2000] }}

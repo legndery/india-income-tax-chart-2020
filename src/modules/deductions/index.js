@@ -53,7 +53,7 @@ export class HRADeduction extends Deduction {
 
 export function generateDeduction({ d80CAmt, salaryBreakup, totalSalary }) {
   // console.log(d80CAmt);
-  console.log(salaryBreakup);
+  // console.log(salaryBreakup);
   const d80c = new Deduction80C().calculateDeduction(d80CAmt);
   const dStd = new DeductionStandard().calculateDeduction();
   const hra = new HRADeduction(totalSalary, salaryBreakup).calculateDeduction();
