@@ -30,7 +30,7 @@ function SalaryBreakup() {
     );
   };
   const onChange = ({ id, value }) => {
-    console.log('hururu')
+    // console.log('hururu')
     setSalaryDivision({
       ...salaryDivision,
       [id]: value

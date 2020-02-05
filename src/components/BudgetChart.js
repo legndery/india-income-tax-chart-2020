@@ -20,7 +20,6 @@ const makeRs = val => {
 };
 let handler = ()=>{};
 eventEmitter.on("SALARY_CHANGE", data => {
-  console.log('hhehehe')
   handler(data);
 });
 function BudgetChart() {
@@ -37,7 +36,7 @@ function BudgetChart() {
         containerComponent={
           <VictoryVoronoiContainer
             labels={d => {
-              console.log(d);
+              // console.log(d);
               return "(x=" + makeRs(d.datum.x) + ";y=" + makeRs(d.datum.y) + ")";
             }}
           />
