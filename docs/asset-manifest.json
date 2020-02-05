@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/india-income-tax-chart-2020/static/css/main.ab20de56.chunk.css",
-    "main.js": "/india-income-tax-chart-2020/static/js/main.17de35c6.chunk.js",
-    "main.js.map": "/india-income-tax-chart-2020/static/js/main.17de35c6.chunk.js.map",
+    "main.js": "/india-income-tax-chart-2020/static/js/main.224b092b.chunk.js",
+    "main.js.map": "/india-income-tax-chart-2020/static/js/main.224b092b.chunk.js.map",
     "runtime-main.js": "/india-income-tax-chart-2020/static/js/runtime-main.18480cf4.js",
     "runtime-main.js.map": "/india-income-tax-chart-2020/static/js/runtime-main.18480cf4.js.map",
     "static/css/2.82f03f93.chunk.css": "/india-income-tax-chart-2020/static/css/2.82f03f93.chunk.css",
-    "static/js/2.b01654c1.chunk.js": "/india-income-tax-chart-2020/static/js/2.b01654c1.chunk.js",
-    "static/js/2.b01654c1.chunk.js.map": "/india-income-tax-chart-2020/static/js/2.b01654c1.chunk.js.map",
+    "static/js/2.7cce17d4.chunk.js": "/india-income-tax-chart-2020/static/js/2.7cce17d4.chunk.js",
+    "static/js/2.7cce17d4.chunk.js.map": "/india-income-tax-chart-2020/static/js/2.7cce17d4.chunk.js.map",
     "index.html": "/india-income-tax-chart-2020/index.html",
-    "precache-manifest.1e4c51f0e516a58c42c5928851bbe5bb.js": "/india-income-tax-chart-2020/precache-manifest.1e4c51f0e516a58c42c5928851bbe5bb.js",
+    "precache-manifest.308a72c0dbca242c2aa53f506f7afdcc.js": "/india-income-tax-chart-2020/precache-manifest.308a72c0dbca242c2aa53f506f7afdcc.js",
     "service-worker.js": "/india-income-tax-chart-2020/service-worker.js",
     "static/css/2.82f03f93.chunk.css.map": "/india-income-tax-chart-2020/static/css/2.82f03f93.chunk.css.map",
     "static/css/main.ab20de56.chunk.css.map": "/india-income-tax-chart-2020/static/css/main.ab20de56.chunk.css.map",
-    "static/js/2.b01654c1.chunk.js.LICENSE.txt": "/india-income-tax-chart-2020/static/js/2.b01654c1.chunk.js.LICENSE.txt"
+    "static/js/2.7cce17d4.chunk.js.LICENSE.txt": "/india-income-tax-chart-2020/static/js/2.7cce17d4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.18480cf4.js",
     "static/css/2.82f03f93.chunk.css",
-    "static/js/2.b01654c1.chunk.js",
+    "static/js/2.7cce17d4.chunk.js",
     "static/css/main.ab20de56.chunk.css",
-    "static/js/main.17de35c6.chunk.js"
+    "static/js/main.224b092b.chunk.js"
   ]
 }
