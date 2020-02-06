@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/india-income-tax-chart-2020/precache-manifest.17aa54f5976f003aa39447531abea0c6.js"
+  "/india-income-tax-chart-2020/precache-manifest.277d6fd1c5fdd331ba0e8eb9188f5bd6.js"
 );
 
 self.addEventListener('message', (event) => {

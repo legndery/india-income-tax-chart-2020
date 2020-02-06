@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8036cd3227be975a6f9e69d883522c1f",
+    "revision": "a11347b39840725dd8ec494251ba0ac3",
     "url": "/india-income-tax-chart-2020/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/india-income-tax-chart-2020/static/css/2.82f03f93.chunk.css"
   },
   {
-    "revision": "7a28fa2670ac85a26a21",
-    "url": "/india-income-tax-chart-2020/static/css/main.ab20de56.chunk.css"
+    "revision": "68281c28fffb2033a519",
+    "url": "/india-income-tax-chart-2020/static/css/main.9eb5daa3.chunk.css"
   },
   {
     "revision": "a77816dea2e8fd80d0f9",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/india-income-tax-chart-2020/static/js/2.7cce17d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7a28fa2670ac85a26a21",
+    "revision": "68281c28fffb2033a519",
     "url": "/india-income-tax-chart-2020/static/js/main.41dc6f69.chunk.js"
   },
   {

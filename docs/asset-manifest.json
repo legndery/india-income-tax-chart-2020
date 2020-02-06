@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/india-income-tax-chart-2020/static/css/main.ab20de56.chunk.css",
+    "main.css": "/india-income-tax-chart-2020/static/css/main.9eb5daa3.chunk.css",
     "main.js": "/india-income-tax-chart-2020/static/js/main.41dc6f69.chunk.js",
     "main.js.map": "/india-income-tax-chart-2020/static/js/main.41dc6f69.chunk.js.map",
     "runtime-main.js": "/india-income-tax-chart-2020/static/js/runtime-main.18480cf4.js",
@@ -9,17 +9,17 @@
     "static/js/2.7cce17d4.chunk.js": "/india-income-tax-chart-2020/static/js/2.7cce17d4.chunk.js",
     "static/js/2.7cce17d4.chunk.js.map": "/india-income-tax-chart-2020/static/js/2.7cce17d4.chunk.js.map",
     "index.html": "/india-income-tax-chart-2020/index.html",
-    "precache-manifest.17aa54f5976f003aa39447531abea0c6.js": "/india-income-tax-chart-2020/precache-manifest.17aa54f5976f003aa39447531abea0c6.js",
+    "precache-manifest.277d6fd1c5fdd331ba0e8eb9188f5bd6.js": "/india-income-tax-chart-2020/precache-manifest.277d6fd1c5fdd331ba0e8eb9188f5bd6.js",
     "service-worker.js": "/india-income-tax-chart-2020/service-worker.js",
     "static/css/2.82f03f93.chunk.css.map": "/india-income-tax-chart-2020/static/css/2.82f03f93.chunk.css.map",
-    "static/css/main.ab20de56.chunk.css.map": "/india-income-tax-chart-2020/static/css/main.ab20de56.chunk.css.map",
+    "static/css/main.9eb5daa3.chunk.css.map": "/india-income-tax-chart-2020/static/css/main.9eb5daa3.chunk.css.map",
     "static/js/2.7cce17d4.chunk.js.LICENSE.txt": "/india-income-tax-chart-2020/static/js/2.7cce17d4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.18480cf4.js",
     "static/css/2.82f03f93.chunk.css",
     "static/js/2.7cce17d4.chunk.js",
-    "static/css/main.ab20de56.chunk.css",
+    "static/css/main.9eb5daa3.chunk.css",
     "static/js/main.41dc6f69.chunk.js"
   ]
 }
